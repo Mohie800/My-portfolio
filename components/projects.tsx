@@ -53,8 +53,8 @@ export default function Projects() {
       title: "Khardah",
       description: "Landing page for Khardah",
       image: "/khardah.png?height=400&width=600",
-      tags: ["Next.js", "TypeScript", "Chart.js", "Tailwind CSS"],
-      liveUrl: "https://example.com/healthcare",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+      liveUrl: "https://kharda.vercel.app/",
       githubUrl: "https://github.com/Mohie800/kharda",
     },
   ];

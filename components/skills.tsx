@@ -43,6 +43,7 @@ export default function Skills() {
         "Vite",
         "CI/CD",
         "SSR",
+        "Recharts",
         "Responsive Design",
         "Performance Optimization",
       ],
