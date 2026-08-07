@@ -1,26 +1,21 @@
-"use client"
-
+import SiteNav from "@/components/site-nav"
 import Hero from "@/components/hero"
-import About from "@/components/about"
-import Skills from "@/components/skills"
-import Projects from "@/components/projects"
-import Experience from "@/components/experience"
-import Contact from "@/components/contact"
-import Footer from "@/components/footer"
-import { PageTransition } from "@/components/animations"
+import DayJob from "@/components/day-job"
+import AfterHours from "@/components/after-hours"
+import ScoreSheet from "@/components/score-sheet"
+import AboutSection from "@/components/about-section"
+import ContactSection from "@/components/contact-section"
 
 export default function Home() {
   return (
-    <PageTransition>
-      <main className="min-h-screen">
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Contact />
-        <Footer />
-      </main>
-    </PageTransition>
+    <main>
+      <SiteNav />
+      <Hero />
+      <DayJob />
+      <AfterHours />
+      <ScoreSheet />
+      <AboutSection />
+      <ContactSection />
+    </main>
   )
 }
